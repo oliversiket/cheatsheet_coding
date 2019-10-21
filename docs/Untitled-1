@@ -1,0 +1,9 @@
+email = oli@oli.com
+
+email = x\'; DROP TABLE users; SELECT * FROM users WHERE x = \'
+
+
+
+SELECT * FROM users WHERE email = 'x';
+DROP TABLE users; 
+SELECT * FROM users WHERE x = '';

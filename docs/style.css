@@ -1,0 +1,23 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.app-name img{
+    width: 80px;
+}
+.app-sub-sidebar li:before {
+    content: "-";
+    padding-right: 4px;
+    float: left;
+}
+.app-sub-sidebar li::before {
+    content: '\0029BF' !important;
+}
+.docsify-copy-code-button {
+    padding: 0.4rem;
+    border-bottom-left-radius: 5px !important;
+}
+.markdown-section pre {
+    overflow: hidden;
+    white-space: pre-wrap;
+    border-radius: 5px;
+}
